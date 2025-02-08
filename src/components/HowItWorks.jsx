@@ -2,7 +2,7 @@ import { School, Home, Users, CheckCircle } from "lucide-react";
 
 export default function HowItWorks() {
   return (
-    <section className="py-16 px-6 text-center bg-[#F8FAFC]">
+    <section id="how-it-works" className="py-16 px-6 text-center bg-[#F8FAFC]">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-black mb-12">
           🚀 How It Works – Get Started in 3 Simple Steps

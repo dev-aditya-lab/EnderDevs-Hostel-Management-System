@@ -20,7 +20,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <a href="#home" className="text-black hover:text-[#FED5E3] transition-colors">Home</a>
+          <a href="#" className="text-black hover:text-[#FED5E3] transition-colors">Home</a>
           <a href="#how-it-works" className="text-black hover:text-[#FED5E3] transition-colors">How It Works</a>
           <a href="#features" className="text-black hover:text-[#FED5E3] transition-colors">Features</a>
           <a href="#pricing" className="text-black hover:text-[#FED5E3] transition-colors">Pricing</a>

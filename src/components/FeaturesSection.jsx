@@ -12,7 +12,7 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className="py-16 bg-[#F8FAFC] text-center px-6">
+    <section id="features" className="py-16 bg-[#F8FAFC] text-center px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-gray-900">⚡ Powerful Features to Simplify Hostel Management</h2>
         <p className="text-lg text-gray-600 mt-4">Everything you need to manage hostels efficiently.</p>
