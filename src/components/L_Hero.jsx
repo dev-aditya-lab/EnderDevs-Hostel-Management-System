@@ -2,8 +2,8 @@ import React from 'react'
 
 function L_Hero() {
   return (
-    <section className="relative py-10 px-6 text-center">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-36">
+    <section className="relative py-16 px-6 text-center">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Text Content */}
         <div className="md:w-1/2 text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
