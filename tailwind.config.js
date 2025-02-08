@@ -13,6 +13,10 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
+			cBlue: '#BFDEFF',
+			cRed: '#FED5E3',
+			cGreen: '#FED5E3',
+			cGray: '#DADADA',
   			sidebar: {
   				DEFAULT: 'hsl(var(--sidebar-background))',
   				foreground: 'hsl(var(--sidebar-foreground))',

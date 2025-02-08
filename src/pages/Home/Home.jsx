@@ -1,13 +1,12 @@
-import { AppSidebar } from '@/components/app-sidebar'
-import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
-import React from 'react'
+import L_Hero from "@/components/L_Hero"
+import Navbar from "@/components/Navbar"
 
 function Home() {
   return (
-    <SidebarProvider>
-      <AppSidebar />
-      <SidebarTrigger />
-    </SidebarProvider>
+    <>
+        <Navbar/>
+        <L_Hero/>
+    </>
   )
 }
 
