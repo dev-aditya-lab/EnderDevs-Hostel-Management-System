@@ -7,6 +7,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Lock, Mail, User } from "lucide-react";
+import { Link } from "react-router-dom";
+
 
 
 const SignUp = () => {
@@ -99,7 +101,7 @@ const SignUp = () => {
           {/* Login Redirect */}
           <p className="text-center text-gray-600 text-sm mt-2">
             Already have an account?{" "}
-            <a href="/login" className="text-blue-600 hover:underline">Login</a>
+            <Link to="/login" className="text-blue-600 hover:underline">Login</Link>
           </p>
         </form>
       </div>
