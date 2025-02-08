@@ -1,9 +1,12 @@
 import React from 'react'
 import './index.css'
+import { Button } from './components/ui/button.jsx'
 
 function App() {
   return (
-    <div className='text-xl'>App</div>
+    <div>
+      <Button>Click me</Button>
+    </div>
   )
 }
 
