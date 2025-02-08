@@ -1,12 +1,13 @@
 import React from 'react'
 import './index.css'
-import { Button } from './components/ui/button.jsx'
+import Home from './pages/Home/Home'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <>
+      <Navbar/>
+    </>
   )
 }
 
