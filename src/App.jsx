@@ -1,14 +1,14 @@
 import React from 'react'
 import './index.css'
 import Home from './pages/Home/Home'
-import Navbar from './components/Navbar'
 import GoToTop from './components/GoToTop'
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
     <>
-    <Home/>
-    <GoToTop/>
+      <GoToTop />
+      <AppRoutes />
     </>
   )
 }

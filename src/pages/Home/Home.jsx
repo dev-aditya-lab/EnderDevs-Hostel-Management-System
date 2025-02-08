@@ -5,15 +5,17 @@ import L_Hero from "@/components/L_Hero"
 import Navbar from "@/components/Navbar"
 import TestimonialsSection from "@/components/TestimonialsSection"
 
+
+
 function Home() {
   return (
     <>
-        <Navbar/>
-        <L_Hero/>
-        <HowItWorks/>
-        <FeaturesSection/>
-        <TestimonialsSection/>
-        <Footer/>
+          <Navbar/>
+          <L_Hero/>
+          <HowItWorks/>
+          <FeaturesSection/>
+          <TestimonialsSection/>
+          <Footer/>
     </>
   )
 }
