@@ -67,7 +67,7 @@ const Login = () => {
   
             {/* Forgot Password */}
             <div className="flex justify-end">
-              <Link to="/forgot-password" className="text-blue-600 text-sm hover:underline">
+              <Link to="/ResetPassword" className="text-blue-600 text-sm hover:underline">
                 Forgot Password?
               </Link>
             </div>
@@ -76,13 +76,20 @@ const Login = () => {
             <Button type="submit" className="w-full bg-[#BFDEFF] text-black hover:bg-[#BFF5DC]">
               Login
             </Button>
-  
+
+            <Button variant="outline" className="w-full">
+              <Link to="/">
+                Back to Home
+              </Link>
+            </Button>
+
             {/* Signup Link */}
             <p className="text-center text-sm text-gray-600">
               Don't have an account?{" "}
               <Link to="/signup" className="text-blue-600 font-medium hover:underline">
                 Sign Up
               </Link>
+
             </p>
           </form>
         </div>

@@ -41,8 +41,8 @@ The **Hostel Management System** is a web-based platform designed to simplify ho
 
 ### 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/hostel-management.git
-cd hostel-management
+git clone https://github.com/dev-aditya-lab/EnderDevs-Hostel-Management-System.git
+cd EnderDevs-Hostel-Management-System
 ```
 
 ### 2️⃣ **Install Dependencies**

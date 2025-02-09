@@ -98,6 +98,12 @@ const SignUp = () => {
             Sign Up & Get Started
           </Button>
 
+          <Button variant="outline" className="w-full">
+            <Link to="/">
+              Back to Home
+            </Link>
+          </Button>
+
           {/* Login Redirect */}
           <p className="text-center text-gray-600 text-sm mt-2">
             Already have an account?{" "}
